@@ -17,7 +17,7 @@ print(key)
 time.sleep(1)
 # Receive Cipher Text
 cipher_text = (c.recv(1024)).decode()
-print (cipher_text)
+print ("Received Text "+cipher_text)
 
 # Decrypt Cipher text
 decodedText = []
@@ -26,5 +26,5 @@ for y in cipher_text:
 print (decodedText)
 decodedText_final = ''
 decodedText_final = decodedText_final.join(decodedText)
-print (decodedText_final)
+print ("Decrypted Message "+decodedText_final)
 s.close()

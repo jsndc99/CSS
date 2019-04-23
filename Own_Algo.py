@@ -37,7 +37,7 @@ for x in plain_text:
 cipher_text_final = ''
 cipher_text_final =  cipher_text_final.join(cipher_text)
 print (cipher_text)
-print (cipher_text_final)
+print ("Cipher Text is "+cipher_text_final)
 # Send Cipher Text and Key
 s = sk.socket()
 host = sk.gethostname()
