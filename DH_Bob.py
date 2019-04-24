@@ -4,7 +4,7 @@ s = socket.socket()
 
 host = socket.gethostname()
 
-port = 10110
+port = 10111
 
 n = 105
 g = 7
